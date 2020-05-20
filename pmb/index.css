@@ -1,0 +1,352 @@
+a { text-decoration: none; }
+a:link
+  { color: darkred; }
+a:visited {color: darkred; }
+a:active  {color: darkred; }
+a:hover   {
+  color: white; 
+  background-color: #0CC;
+  font-weight: normal;
+}
+BODY {
+  color: black;
+  margin: 0 5 0 5;
+  padding: 0 0 0 0;
+  width: auto;
+  font-family : sans, tahoma;
+  font-weight : normal;
+  font-size: 10pt;
+}
+img {
+  border: 0;
+}
+.menu {
+  font-family : tahoma, helvetica, sans-serif;
+  font-size : 1em;
+  clear: both;
+}
+.menuitem {
+  border : 1px solid silver;
+  padding: 4px;
+}
+.menuaktif {
+  border : 1px solid silver;
+  background : #CCFFCC;
+  padding: 4px;
+}
+.JudulBesar {
+  clear: both;
+  text-align: center;
+  font-size: 3em;
+  font-family: Times;
+  color: gray;
+}
+.Judul {
+  clear: both;
+  font-size: 2em;
+  font-family: Times;
+  text-align: center;
+  padding: 2px;
+  color: gray;
+  background-color: rgb(240,240,200);
+  border-bottom: 1px solid #DDD;
+}
+.NamaLogin {
+  float: right;
+  font-size: 0.8em;
+  color: gray;
+}
+.MenuDirectory {
+  float: left;
+  font-size: 0.8em;
+  color: gray;
+}
+.isi {
+  clear: both;
+  padding: 0px;
+}
+.box {
+  font-size: 1em;
+  border: 1px solid silver;
+}
+.bsc {
+  font-size: 1em;
+}
+.ttl {
+  border-bottom : 1px solid gray;
+  border-right: 1px solid gray;
+  background-color : #CEE;
+  padding: 4px;
+}
+.inp {
+  font-size: 0.8em;
+  color: navy;
+  text-align: right;
+  background-color: rgb(240,240,200);
+  border-bottom: 1px solid silver;
+  padding: 4px;
+}
+.inp1 {
+  background-color : #CFD;
+  border-bottom: 1px solid silver;
+  padding: 4px;
+}
+.inp2 {
+  background-color1 : #CCFFCC;
+  background-color: #DDBDDD;
+  padding: 4px;
+}
+.inp3{
+  background-color : rgb(255,255,204);
+  border-bottom: 1px solid #DDD;
+  padding: 4px;
+}
+.inp4{
+  background-color : rgb(204,204,255);
+  border-bottom: 1px solid #DDD;
+  padding: 4px;
+}
+.nac {
+  background-color : #DEDEDE;
+  border-bottom: 1px solid silver;
+  color : black;
+  padding: 4px;
+}
+.hdr {
+  background-color : white;
+  border-top: 2px solid silver;
+  border-bottom: 1px solid silver;
+  font-weight: bold;
+}
+.ul {
+  border-bottom: 1px solid #ddd;
+  padding: 4px;
+}
+.ul1 {
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 4px;
+}
+.oke {
+  background: #66FF66;
+  border-bottom: 1px solid #ddd;
+}
+.kolkir {
+  border-right: 1px solid silver;
+  padding: 0 4px 0 0;
+}
+.kolkan {
+  padding: 0 0 0 4px;
+}
+.cnaY {
+  background-color: rgb(240, 240, 200);
+  color: gray;
+  border-bottom: 1px solid silver;
+}
+.cnaN {
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid silver;
+}
+.cnnY {
+  background: yellow;
+  color: black;
+  border-bottom: 1px solid silver;
+}
+.cnnN {
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid silver;
+}
+.wrn {
+  background-color: red;
+  color: yellow;
+  padding: 4px;
+}
+.kiri {
+  width: 150;
+  float: left;
+}
+.submenu {
+  font-size: 0.8em;
+  clear: both;
+  display: block;
+}
+.bagian_kiri {
+  float: left;
+  width: 15em;
+  padding-right: 4px;
+}
+.footer {
+  clear: both;
+  text-align: center;
+  padding: 4px;
+  background-color: rgb(240,240,200);
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+/* MENU */
+
+.menudropdown {
+  clear: both;
+  font-family : sans, tahoma;
+  font-size : 1em;
+  height: 1.2em;
+  float: left;
+  position: relative;
+}
+.rootMenu1 { 
+  text-decoration: none; 
+  color: black; 
+  text-align: left; 
+  text-indent: 2px; 
+  background-color: rgb(255,255,153);
+}
+.rootMenu2 { 
+  text-decoration: none; 
+  color: white; 
+  text-align: left; 
+  text-indent: 2px;
+  background-color: rgb(51,102,255);
+}
+.subMenu1 { 
+  text-decoration: none; 
+  color: black; 
+  text-align: left; 
+  text-indent: 2px; 
+  background-color: white;
+}
+.subMenu2 { 
+  text-decoration: none; 
+  color: white; 
+  text-align: left; 
+  text-indent: 2px;
+  background-color: rgb(51,102,255);
+}
+.rootBorder { 
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  border-left: 1px solid white;
+  background-color: yellow;
+}
+.itemBorder { 
+  border: 1px solid silver;
+  background-color: blue; }
+.itemBorderBlank { 
+  border: 1px solid blue;
+  background-color: black;
+}
+#JT_arrow_left {
+background-image:url(images/arrow_left.gif);
+background-position:left top;
+background-repeat:no-repeat;
+height:23px;
+left:-12px;
+position:absolute;
+top:-3px;
+width:10px;
+z-index:101;
+}
+#JT_arrow_right {
+background-image:url(images/arrow_right.gif);
+background-position:left top;
+background-repeat:no-repeat;
+height:23px;
+position:absolute;
+top:-2px;
+width:11px;
+z-index:101;
+}
+#JT {
+background-color:#FFFFFF;
+border:2px solid #CCCCCC;
+position:absolute;
+z-index:100;
+}
+#JT_copy {
+color:#333333;
+padding:10px;
+}
+.JT_loader {
+background-image:url(images/loader.gif);
+background-position:center;
+background-repeat:no-repeat;
+height:12px;
+width:100%;
+}
+#JT_close_left {
+background-color:#CCCCCC;
+font-weight:bold;
+padding-bottom:5px;
+padding-left:8px;
+padding-top:2px;
+text-align:left;
+}
+#JT_close_right {
+background-color:#CCCCCC;
+font-weight:bold;
+padding-bottom:5px;
+padding-left:8px;
+padding-top:2px;
+text-align:left;
+}
+#JT_copy p {
+margin:3px 0pt;
+}
+#JT_copy img {
+border:1px solid #CCCCCC;
+padding:1px;
+}
+.jTip {
+cursor:help;
+}
+
+
+@media print {
+.noprint {display: none;}
+.JudulBesar {
+  clear: both;
+  text-align: center;
+  font-size: 3em;
+  font-family: Times;
+  color: gray;
+  display : none;
+}
+.NamaLogin {
+  float: right;
+  font-size: 0.8em;
+  color: gray;
+  display : none;
+}
+.MenuDirectory {
+  float: left;
+  font-size: 0.8em;
+  color: gray;
+  display : none;
+}
+.menudropdown {
+  clear: both;
+  font-family : sans, tahoma;
+  font-size : 1em;
+  height: 1.2em;
+  float: left;
+  position: relative;
+  display : none;
+}
+.isi {
+  clear: both;
+  padding: 0px;
+  align : center;
+}
+div.tengah {
+  align:center;
+}
+.footer {
+  display:none;
+}
+
+thead	{display: table-header-group;	}
+tfoot	{display: table-footer-group;	}
+
+}

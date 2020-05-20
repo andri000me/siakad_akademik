@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^home$ index.php [L]
+RewriteRule ^auth/login$ login.php [L]
+RewriteRule ^logout$ zayed.php?rn=lout$1 [L]
+
+Options -Indexes

@@ -1,0 +1,12 @@
+<?php
+// Author : Arisal Yanuarafi
+// Email  : arisal.yanuarafi@yahoo.com
+// Start  : 24 Oktober 2012
+
+session_start();
+include_once "../sisfokampus1.php";
+
+HeaderSisfoKampus("Presensi Mahasiswa", 1);
+
+// *** Parameters ***
+$pid = $_REQUEST['pid'];

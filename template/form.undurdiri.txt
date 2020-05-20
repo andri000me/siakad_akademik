@@ -1,0 +1,58 @@
+					FORMULIR RENCANA PENGUNDURAN DIRI                                         
+__________________________________________________________________________________________________________________
+Tanggal Cetak Formulir        : #TGL#        
+Persentasi Pengembalian biaya yang telah dibayar : ________ %         
+__________________________________________________________________________________________________________________
+
+Nama Calon Mahasiswa (Cama)   : #NAMA#
+Alamat                        : #ALAMAT#
+No. USM                       : #PMBID#
+Fakultas/Jurusan              : #FAKJUR#
+Periode/Tanggal USM           : #PERIODE#
+Hasil USM                     : #GRADE#
+Nama Orang Tua / Wali Cama    : #ORTU#
+Alamat Orang Tua              : #ALORTU#
+
+
+Dengan ini menyatakan pengunduran diri sebagai calon mahasiswa Universitas Kristen Krida Wacana, dan mengajukan
+  permohonan pengembalian biaya yang telah dibayarkan dengan rincian sbb :
+- Jumlah Kewajiban Pembayaran    : 0
+- Jumlah yang telah dibayar      : 0
+- Jumlah yang dikembalikan       : 
+
+                          = Rp._________________,-
+
+(terbilang __________________________________________________________________________)
+Sebab - sebab pengunduran diri (Beri tanda sesuai garis yang sesuai, bisa lebih dari satu sebab) : 
+ Diterima di PTN              Diterima di PTS lain             Diterima di PT luar negeri
+ Kekurangan Biaya             Tidak lulus SLTA                 Kesehatan
+ Lain-lain (Sebutkan) : ____________________________________________________________
+
+
+Orang Tua / Wali Calon Mahasiswa                                                Calon Mahasiswa
+
+                                                                               meterai Rp.6.000,-
+
+
+(                              )                                       (                             )
+__________________________________________________________________________________________________________________
+
+Menyetujui Pengembalian biaya tersebut,				        Pengembalian uang telah diterima										
+	Wakil Rektor II                                                         Calon Mahasiswa
+
+									
+
+
+(                               )				       (                            )
+__________________________________________________________________________________________________________________
+
+Catatan : 
+   1. Formulir ini dicetak di BAA.
+   2. Setelah diisi dan ditandatangani, formulir ini dibawa ke Bagian Keuangan
+      Universitas Kristen Krida Wacana untuk diproses, dengan melampirkan Bukti Pembayaran dan
+      Kartu Ujian / Kartu Tanda Mahasiswa / Kartu Studi Semester.
+   3. Setelah dilakukan pengembalian biaya yang telah dibayarkan maka calon 
+      mahasiswa berstatus mengundurkan diri.
+   4. Bila sampai dengan akhir bulan biaya yang dikembalikan tidak diambil maka
+      formulir ini menjadi kadaluwarsa dan perlu diperbaharui, dengan nilai 
+      pengembalian biaya yang lebih kecil.

@@ -1,0 +1,99 @@
+.ddcolortabs {
+  position: relative;
+  display: block;
+  clear: both;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+  /*voice-family: "\"}\"";
+  voice-family: inherit;*/
+  margin: 0;
+  top: -34px;
+  cursor: pointer;
+}
+
+.ddcolortabs li {
+  display: inline;
+  margin: 0 2px 0 0;
+  padding: 0;
+}
+
+.ddcolortabs a {
+  float:left;
+  color: white;
+  text-decoration:none;
+  letter-spacing: 1px;
+}
+
+.ddcolortabs a span{
+  float:left;
+  display:block;
+  clear: both;
+  border: 1px solid #fff;
+  /*background: transparent url(media/header.gif) repeat right top;*/
+  background: black;
+  padding: 2px 7px 2px 7px;
+}
+
+.ddcolortabs a span{
+  float:none;
+}
+
+.ddcolortabs a:hover{
+  background-color: #591f20;
+}
+
+.ddcolortabs a:hover span{
+  background-color: #591f20;
+}
+
+.ddcolortabs .selected a, #ddcolortabs .selected a span{ /*currently selected tab*/
+  background-color: #591f20;
+}
+
+.ddcolortabsline_xxx{
+  position: relative;
+  /*top: -22px;*/
+  clear: both;
+  padding: 0;
+  width: 100%;
+  sheight: 8px;
+  sline-height: 8px;
+  background: black;
+  /*border-top: 1px solid #fff;  Remove this to remove border between bar and tabs*/
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv_a{
+  position:absolute;
+  border: 1px solid #591f20; /*THEME CHANGE HERE*/
+   /* border-top-width: 1px; Top border width. Should match height of .ddcolortabsline above*/
+  border-bottom-width: 0;
+  font: normal 8pt tahoma;
+  line-height:18px;
+  z-index:100;
+  background-color: white;
+  width: 200px;
+  visibility: hidden;
+}
+
+.dropmenudiv_a a{
+  width: auto;
+  display: block;
+  text-indent: 5px;
+  border-top: 0 solid #678b3f;
+  border-bottom: 1px solid #678b3f; /*THEME CHANGE HERE*/
+  padding: 2px 0;
+  text-decoration: none;
+  color: black;
+}
+
+* html .dropmenudiv_a a{ /*IE only hack*/
+  width: 100%;
+}
+
+.dropmenudiv_a a:hover{ /*THEME CHANGE HERE*/
+  background-color: #8a3c3d;
+  color: white;
+}

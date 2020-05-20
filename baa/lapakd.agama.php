@@ -1,0 +1,124 @@
+<?php
+
+session_start();
+
+include_once "../dwo.lib.php";
+include_once "../db.mysql.php";
+include_once "../connectdb.php";
+include_once "../parameter.php";
+include_once "../cekparam.php";
+include_once "../header_pdf.php";
+
+// *** Parameters ***
+$TahunID = GetSetVar('TahunID');
+$ProdiID = GetSetVar('ProdiID');
+
+// *** Init PDF
+$pdf = new PDF();
+$pdf->SetTitle("Rekapitulasi Jumlah Mahasiswa Berdasarkan Agama");
+$pdf->AddPage();
+$lbr = 190;
+
+BuatIsinya($pdf);
+
+$pdf->Output();
+
+// *** Functions ***
+function BuatHeadernya($agama, $p) {
+  global $lbr;
+  $t = 6;
+  $p->SetFont('Helvetica', 'B', 12);
+  $p->Cell($lbr, $t, "Rekapitulasi Jumlah Mahasiswa Berdasarkan Agama", 0, 1, 'C');
+  $p->Ln($t);
+  
+  $t = 5;
+  $p->SetFont('Helvetica', 'BI', 9);
+  
+  // Baris 1
+  $p->Cell(15, $t, 'Tahun', 'LTR', 0, 'C');
+  $p->Cell(13, $t, 'Total', 'LTR', 0, 'R');
+  $p->Cell(13*sizeof($agama), $t, 'Agama', 1, 0, 'C');
+  $p->Ln($t);
+  
+  // Baris 2
+  $p->Cell(15, $t, 'Angktn', 'LBR', 0, 'C');
+  $p->Cell(13, $t, 'Mhsw', 'LBR', 0, 'R');
+  // Agama
+  foreach ($agama as $k) {
+    $p->Cell(13, $t, $k, 1, 0, 'R');
+  }
+  $p->Ln($t);
+}
+function BuatIsinya($p) {
+  $t = 6;
+  $arrAngkatan = GetArrayAngkatan($arrJml);
+  $arrAgama = GetArrayAgama($arrJmlAgama);
+  BuatHeadernya($arrAgama, $p);
+  
+  $total = 0;
+  $det = array();
+  for ($i = 0; $i < sizeof($arrAngkatan); $i++) {
+    $angk = $arrAngkatan[$i];
+    // Jumlah
+    $p->SetFont('Helvetica', 'B', 10);
+    $p->Cell(15, $t, $arrAngkatan[$i], 'B', 0);
+    
+    $p->SetFont('Helvetica', '', 10);
+    $jml = number_format($arrJml[$arrAngkatan[$i]]);
+    $p->Cell(13, $t, $jml, 'B', 0, 'R');
+    $total += $arrJml[$arrAngkatan[$i]];
+    
+    
+    // Kelamin
+    foreach ($arrAgama as $agama) {
+      $jmlkel = $arrJmlAgama[$arrAngkatan[$i]][$agama];
+      $_jmlkel = ($jmlkel == 0)? '-' : number_format($jmlkel);
+      $p->Cell(13, $t, $_jmlkel, 'B', 0, 'R');
+      $det['agama_'.$agama] += $jmlkel;
+    }
+    
+    $p->Ln($t);
+  }
+  
+  $p->SetFont('Helvetica', 'B', 10);
+  // Menampilkan total
+  $p->Cell(15, $t, "TOTAL :", 0, 0, 'R');
+  $p->Cell(13, $t, number_format($total), 0, 0, 'R');
+  // Total Kelamin
+  foreach ($arrAgama as $agama) {
+    $jml = $det['agama_'.$agama];
+    $_jml = number_format($jml);
+    $p->Cell(13, $t, $_jml, 0, 0, 'R');
+  }
+  $p->Ln($t);
+}
+function GetArrayAngkatan(&$arrJml) {
+	$whr = (!empty($_SESSION['ProdiID']))? " where ProdiID='$_SESSION[ProdiID]' " : '';
+  $s = "select m.TahunID, count(m.MhswID) as JML
+    from mhsw m $whr
+    group by m.TahunID
+    order by m.TahunID desc";
+  $r = _query($s);
+  $arr = array();
+  while ($w = _fetch_array($r)) {
+    $arr[] = $w['TahunID'];
+    $arrJml[$w['TahunID']] = $w['JML'];
+  }
+  return $arr;
+}
+function GetArrayAgama(&$arrJmlAgama) {
+	$whr = (!empty($_SESSION['ProdiID']))? " where ProdiID='$_SESSION[ProdiID]' " : '';
+  $s = "select m.TahunID, count(m.MhswID) as JML, m.Agama
+    from mhsw m $whr
+    group by m.Agama, m.TahunID";
+  $r = _query($s);
+  $arr = array();
+  while ($w = _fetch_array($r)) {
+    if (array_search($w['Agama'], $arr) === false) $arr[] = $w['Agama'];
+    $arrJmlAgama[$w['TahunID']][$w['Agama']] = $w['JML'];
+    
+  }
+  return $arr;
+}
+
+?>

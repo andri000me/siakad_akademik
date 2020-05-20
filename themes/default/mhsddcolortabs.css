@@ -1,0 +1,110 @@
+.ddcolortabs {
+  position:relative;
+  display:list-item;
+  clear: both;
+  padding: 0;
+  float:right;
+  width: 100%;
+  background: transparent;
+  /*voice-family: "\"}\"";
+  voice-family: inherit;*/
+  margin: 0;
+top:-105px;
+  cursor:default;
+}
+
+.ddcolortabs li {
+  display:list-item;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+.ddcolortabs div {
+  float:right;
+  color:#000000;
+  font-weight:bold;
+  text-decoration:none;
+  letter-spacing: 1px;
+ background-color: transparent;
+  width:160px;
+  margin:0;
+}
+
+.ddcolortabs div span{
+  float:right;
+  display:block;
+  clear: both;
+  text-align:center;
+  /*background: transparent url(media/header.gif) repeat right top;*/
+  /*background:url(img/menuBG.gif) repeat bottom;*/
+  padding: 3px 15px;
+}
+
+.ddcolortabs div span{
+  float:none;
+}
+
+.ddcolortabs a:hover{
+  /* background-color: #591f20; */
+
+}
+
+.ddcolortabs a:hover span{
+
+}
+
+.ddcolortabs .selected a, #ddcolortabs .selected a span{ /*currently selected tab*/
+  background:url(img/menuBG.gif) repeat top;
+  color:#FFFFFF;
+}
+
+.ddcolortabsline_xxx{
+  position: relative;
+  /*top: -22px;*/
+  clear: both;
+  padding: 0;
+  width: 100%;
+  sheight: 8px;
+  sline-height: 8px;
+  background: black;
+  /*border-top: 1px solid #fff;  Remove this to remove border between bar and tabs*/
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv_a{
+  position:relative;
+  border: 1px solid #85A4D8; /*THEME CHANGE HERE*/
+   /* border-top-width: 1px; Top border width. Should match height of .ddcolortabsline above*/
+  border-bottom-width: 0;
+  font: normal 8pt tahoma;
+  line-height:18px;
+  z-index:100;
+  background-color:transparent;
+  width: 100px;
+  visibility: visible;
+  float:none;
+
+}
+
+.dropmenudiv_a a{
+  width: 160px;
+  display: block;
+  text-indent: 5px;
+  border-top: 0 solid #678b3f;
+  border-bottom: 1px solid #85A4D8; /*THEME CHANGE HERE*/
+  padding: 2px 0;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  font-weight:normal;
+}
+
+* html .dropmenudiv_a a{ /*IE only hack*/
+  width: 100%;
+}
+
+.dropmenudiv_a a:hover{ /*THEME CHANGE HERE*/
+  background-color:#dfc0c0;
+  color:#26455B;
+}

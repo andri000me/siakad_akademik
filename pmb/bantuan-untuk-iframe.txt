@@ -1,0 +1,21 @@
+function changeIt(fl) {
+document.frames["myInnerFrame"].location.href=fl;
+}
+
+function automatic() {
+for (i=1;i<10;i++) {
+  setTimeout("changeIt(" +  i + ".html)", i * 5000);
+}
+} 
+
+
+
+
+function automatic(nbr, max, delay) {
+   if (nbr <= max) {
+      document.frames["myInnerFrame"].location.href = nbr + ".html";
+   }
+   if (nbr < max) {
+      setTimeout("automatic("+(nbr++)","+max+","+delay+")", delay); 
+   }
+}

@@ -1,0 +1,41 @@
+
+Kepada Yth.
+    Nomer PMB       : ~PMBID~
+    Nama            : ~Nama~
+    Asal SMU        : ~AsalSekolah~
+    Fak/Jur Diterima: ~FAK~ / ~PRD~
+
+Anda dinyatakan diterima Penerimaan Mahasiswa Baru (PMB) Tahun 2006
+Universitas Kristen Krida Wacana, berdasarkan jurusan yang Anda pilih.
+Berikut adalah biaya pendidikan di UKRIDA:
+
+~BIPOT~
+
+~DISKON~
+Periode Daftar Ulang dimulai pada tanggal ~TglMulai~ s/d ~TglSelesai~.
+
+Pembayaran dapat dilakukan di/melalui transfer Bank INA (Kampus I)
+Ac No. 001.0002.00102.1 atas nama Yayasan BPTK Krida Wacana atau melalui
+BCA KCP Kebon Jeruk Raya Ac No. 656.030.018.1 atas nama YPTK Krida Wacana.
+Jika Anda membayar lewat Bank INA, mintalah slip BPM di BAA. BPM tersebut
+berfungsi sebagai slip Pembayaran Uang Kuliah. Dan jika Anda membayar di
+BCA serahkanlah bukti setor asli tersebut dan mintalah slip BPM sebagai
+pengganti bukti Pembayaran Uang Kuliah. Jika pembayaran dilakukan melalui
+transfer, maka bukti transfer harus difax ke (021) 5666956 ke Bag. Keuangan.
+Pembayaran harus dilunasi paling lambat tanggal ~BayarSelesai~.
+
+Bila nanti Anda lulus SMU/SMK, maka secara otomatis Anda telah diterima
+sebagai Mahasiswa UKRIDA dengan menunjukkan bukti slip BPM tersebut di atas.
+
+Jika Anda diterima di PTN melalui SPMB, maka Biaya Pendidikan yang telah
+dibayarkan akan dikembalikan dengan dipotong biaya administrasi sebesar
+Rp. 2.000.000,- (Fak. Kedokteran) dan Rp. 1.000.000,- (Non Fak. Kedokteran).
+
+
+                                        Jakarta, ~Tanggal~
+                                        Rektor
+
+
+
+
+                                        Pdt. Jefta Ch. Widyaatmaja, M.Th.

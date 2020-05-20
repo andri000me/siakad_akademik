@@ -1,0 +1,57 @@
+<?php
+  // Author: E. Setio Dewo, setio_dewo@telkom.net, April 2003
+
+
+?>
+<style type="text/css">
+.taba {
+	BORDER-RIGHT: gray 1px solid; 
+	BORDER-TOP: gray 1px solid; 
+	BORDER-BOTTOM: 1px; 
+	BORDER-LEFT: gray 1px solid; 
+	TEXT-ALIGN:center;
+	color: black;
+	width: 150;
+	position: relative;
+	background-color: white;
+	
+	font-family: verdana,arial,helvetica;
+	font-size: 8pt;
+	font-weight: bold;
+}
+.tabn {
+	BORDER-RIGHT: silver 1px solid; 
+	BORDER-TOP: silver 1px solid; 
+	BORDER-BOTTOM: gray 1px solid; 
+	BORDER-LEFT: silver 1px solid; 
+	BACKGROUND-COLOR: transparent;
+	CURSOR: hand; 
+	TEXT-ALIGN:center;
+	color: black;
+	width: 150;
+	position: relative;
+	font-family: verdana,arial,helvetica;
+	font-size: 8pt;
+
+}
+.tabc {
+	BORDER-RIGHT: gray 1px solid; 
+	BORDER-TOP: 1px; 
+	BORDER-BOTTOM: gray 1px solid; 
+	BORDER-LEFT: gray 1px solid; 
+	color: black;
+	background-color: white;
+	font-family: verdana,arial,helvetica;
+	font-size: 8pt;
+}
+.tabe {
+	BORDER-RIGHT: silver 0px solid; 
+	BORDER-TOP: silver 0px solid; 
+	BORDER-BOTTOM: gray 1px solid; 
+	BORDER-LEFT: silver 0x solid; 
+	CURSOR: hand; 
+	TEXT-ALIGN:center;
+	color: black;
+	position: relative;
+}
+</style>

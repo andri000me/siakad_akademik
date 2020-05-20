@@ -1,0 +1,151 @@
+#onlineUser {
+	width:224px;
+	position:fixed; 
+	right:0; 
+	bottom:0; 
+	text-align:center;
+	padding-top:6px;
+	border-left:#999999 1px solid;
+	color:#FFF;
+	cursor:pointer;
+	background-color:#3c8dbc;
+	z-index: 1000
+}
+.userList{
+	padding:3px 7px;
+	cursor:pointer;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+}
+
+.chatbox, .userbox {
+	position: fixed;
+	position:expression("absolute");
+	width: 225px;
+	display:none;
+}
+
+.chatboxhead, .userboxhead {
+	background-color:#ca221a;
+	padding:7px;
+	color: #ffffff;
+
+	border-right:1px solid #999;
+	border-left:1px solid #999;
+	  -moz-border-topleft-radius:6px;
+	  border-top-left-radius:6px;
+}
+
+.chatboxblink {
+	background-color:#006699;
+	border-right:1px solid #8e4d0d;
+	border-left:1px solid #8e4d0d;
+	  -moz-border-radius:6px;
+	  border-radius:6px;
+}
+.userboxcontent {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #333333;
+	padding-top:5px;
+	padding-bottom:5px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	min-height:50px;
+	max-height:300px;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #eeeeee;
+	background-color: #ffffff;
+}
+
+.chatboxcontent {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #333333;
+	height:200px;
+	width:209px;
+	padding:7px;
+	overflow-y:auto;
+	overflow-x:auto;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #eeeeee;
+	background-color: #ffffff;
+	line-height: 1.3em;
+}
+
+.chatboxinput {
+	padding: 5px;
+	background-color: #ffffff;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+}
+
+.chatboxtextarea {
+	width: 206px;
+	height:44px;
+	padding:3px 0pt 3px 3px;
+	border: 1px solid #eeeeee;
+	margin: 1px;
+	overflow:scroll;
+}
+
+.chatboxtextareaselected {
+	border: 2px solid #e38c36;
+	margin:0;
+	  -moz-border-radius:6px;
+	  border-radius:6px;
+}
+
+.chatboxmessage {
+	margin-left:1em;
+}
+.pengumuman {position:absolute;
+				bottom:0;
+				width:80%;
+				background:#FFFFFF;
+				color:#d67618;
+				font-weight:bold;}
+.chatboxinfo {
+	margin-left:-1em;
+	color:#666666;
+
+}
+
+.chatboxmessagefrom {
+	margin-left:-1em;
+	font-weight: bold;
+	font-size:11px;
+}
+
+.chatboxmessagecontent {
+	font-size:11px;
+}
+
+.chatboxoptions {
+	float: right;
+}
+
+.chatboxoptions a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	font-family:Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+
+.chatboxtitle {
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+.chatboxtitle a {
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+#ChatAdmin { position:fixed; top:400px; width:60px; border:#096; right:0px; text-align:right; background-color:#069; color:#FFF; padding-right:3px}
+#ChatAdmin a {color:#9F0; text-decoration:none}
+#ChatAdmin a :hover{color:#FFF; text-decoration:none}

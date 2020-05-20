@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html { height: 101%; }
+body { font-size: 62.5%; font-family: Arial, Tahoma, sans-serif; line-height: 1; padding-bottom: 65px; background: #d5d9e6; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+p { color: #434343; font-size: 1.2em; line-height: 1.35em; margin-bottom: 7px; }
+
+h1 { font-family: 'Trebuchet MS', Arial, sans-serif; font-size: 3.32em; font-weight: normal; color: #3e7cb0; margin-bottom: 45px; text-align: center; } 
+
+/* page container */
+#w { max-width: 720px; min-width: 500px; margin: 0 auto; margin-top: 52px; padding: 16px 22px; background: #fff; }
+
+
+/* signup form */
+#signup { display: block; }
+
+#signup .row { margin-bottom: 15px; padding-bottom: 8px; }
+
+#signup label { float: left; width: 150px; height: 100%; font-size: 1.2em; color: #787878; margin-top: 11px; }
+
+#signup .formtext { 
+  outline: none; 
+  width: 50%;
+  padding: 7px 10px; 
+  font-size: 1.1em; 
+  line-height: 1.35em;
+  font-weight: bold; 
+  color: #656565;
+  font-family: Arial, Verdana, sans-serif;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  transition: all 0.4s linear; 
+}
+.hidden { display: none; }
+
+#signup #submit { 
+  padding: 10px 24px;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff; 
+  cursor: pointer;
+  background-color: #5bb75b;
+  background-image: -moz-linear-gradient(top, #62c462, #51a351);
+  background-image: -ms-linear-gradient(top, #62c462, #51a351);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+  background-image: -o-linear-gradient(top, #62c462, #51a351);
+  background-image: linear-gradient(top, #62c462, #51a351);
+  background-repeat: repeat-x;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#62c462', endColorstr='#51a351', GradientType=0);
+  border-width: 1px;
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+#signup #submit:hover {
+  background: #58b158;
+}
+
+#submitresults { display: inline; position: absolute; left: 110px; top: 5px; margin-left: 22px; }
+
+#captcontainer { display: none; }
+
+#resultscontainer { position: relative; }
+
+.captchaimg { margin-left: 150px; }
+
+
+form .row:before, form .row:after { content: ""; display: table; }
+form .row:after { clear: both; }
+/* IE 6/7 */
+form .row { zoom: 1; }

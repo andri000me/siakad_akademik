@@ -1,0 +1,55 @@
+/* Styles untuk MENU */
+
+.menudropdown {
+  clear: both;
+  font-family:  Verdana, Arial, Helvetica, sans-serif;
+  letter-spacing:0.02em;
+  font-size: 10px;
+  text-align: center;
+  height: 1.2em;
+  float:none;
+  position: absolute;
+  background: transparent url(img/header.gif) repeat-x scroll;
+  top: 114px;
+}
+.rootMenu1 { 
+  text-decoration: none;
+  color: #FFF;
+  text-indent: 2px;
+  padding-top: 6px;
+  background: transparent url(img/header.gif) repeat-x scroll;
+}
+.rootMenu2 { 
+  text-decoration: none;
+  color: #FFF;
+  text-indent: 2px;
+  padding-top: 6px;
+  background: transparent url(img/header.gif) repeat-x scroll;
+}
+.subMenu1 { 
+  text-decoration: none; 
+  color: black; 
+  text-align: left; 
+  text-indent: 2px; 
+  background-color: white;
+}
+.subMenu2 { 
+  text-decoration: none; 
+  color: white; 
+  text-align: left; 
+  text-indent: 2px;
+  background-color: #C45A40;
+}
+.rootBorder { 
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+  border-left: 1px solid white;
+  background-color: yellow;
+}
+.itemBorder { 
+  border: 1px solid silver;
+  background-color: blue; }
+.itemBorderBlank { 
+  border: 1px solid blue;
+  background-color: black;
+}

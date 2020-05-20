@@ -1,0 +1,49 @@
+
+
+
+
+
+                                           ** SURAT PEMBERITAHUAN LULUS USM **
+                                                 [Nomor urut: ~PMBID~]
+
+Kepada Yth.
+    Nama            : ~Nama~
+    Asal SMU        : ~AsalSekolah~
+    Fak/Jur Diterima: ~FAK~ / ~PRD~
+
+1. Dalam Ujian Saringan Masuk (USM) tanggal 25 November 2007, Anda dinyatakan DITERIMA dengan PERINGKAT ~GRADE~ pada
+   program studi yang Anda pilih. Biaya pendidikan untuk program studi tersebut adalah:
+
+~BIPOT~
+
+2. Periode Daftar Ulang dimulai pada tanggal ~TglMulai~ s/d ~TglSelesai~.
+   Jika Anda membayar lunas s.d. ~TglSelesai~ akan mendapat rabat 5% dari SPP yang wajib dibayar.
+   Namun jika ingin mengangsur, caranya adalah sebagai berikut:
+
+   - Membayar 50% dari SPP yang wajib dibayar sebesar Rp. ~TAHAP1~,- paling lambat tanggal 28 Desember 2007.
+     Sisa pembayaran SPP dan Biaya Pendidikan:
+   - 60% sebesar Rp. ~TAHAP2~,- paling lambat tanggal 31 Januari 2008.
+   - 40% sebesar Rp. ~TAHAP3~,- paling lambat tanggal 29 Februari 2008.
+
+3. Pembayaran dapat dilakukan di/melalui transfer ke:
+
+   - Bank INA Ac No. 001.00.02.00104.9 atas nama SISFO KAMPUS
+   - BCA KCP Kebon Jeruk Raya Ac No. 656.030.018.1 atas nama SISFO KAMPUS
+
+   Jika Anda membayar lewat Bank INA, mintalah slip BPM di BAA. BPM tersebut berfungsi sebagai slip Pembayaran
+   Uang Kuliah. Dan jika Anda membayar di BCA serahkanlah bukti setor asli tersebut pada BAA dan mintalah
+   slip BPM sebagai pengganti bukti Pembayaran Uang Kuliah. Jika pembayaran dilakukan melalui transfer,
+   maka bukti transfer harus di fax ke Bag. Admisi, (021) 56943458.
+
+4. Bagi calon mahasiswa yang ingin mengundurkan diri karena diterima SPMB Negeri, dikenakan biaya administrasi sebesar:
+   - 10% dari SPP yang wajib dibayar untuk Fakultas Kedokteran.
+   - Rp. 1.500.000,- untuk Fakultas Non Kedokteran.
+   (dengan menunjukkan bukti kelulusan SPMB Negeri)
+
+                                                                                       Jakarta, ~Tanggal~
+                                                                                       Wakil Rektor I
+
+
+
+
+                                                                                       Kho I Eng, Dipl.-Inf.

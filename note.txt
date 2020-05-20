@@ -1,0 +1,6 @@
+library => dwo.lib.php
+koneksi => connectdb.php
+
+Master Table => Mahasiswa
+- Isian tidak ada
+

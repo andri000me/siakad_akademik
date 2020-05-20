@@ -1,0 +1,9 @@
+/* CSS Document */
+div.page-break {
+   visibility: visible;
+   page-break-after: always;
+}
+
+font.kapital {
+text-transform:capitalize;
+}
