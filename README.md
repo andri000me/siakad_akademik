@@ -6,3 +6,6 @@ aplikasi siakad akademik native
 
 # kalau mau download di kembangin trus gak push kesini lagi gw gak iklas 
 ![](penampakan.png)
+
+
+# lo jual lagi ni app duit nya harap dosa , wkwkwk
