@@ -8,4 +8,4 @@ aplikasi siakad akademik native
 ![](penampakan.png)
 
 
-# lo jual lagi ni app duit nya harap dosa , wkwkwk
+# lo jual lagi ni app duit nya haram dosa , wkwkwk
